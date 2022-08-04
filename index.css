@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'SF Bold';
+    src: url(Fonts/SF-Pro-Display-Bold.otf);
+}
+
+@font-face {
+    font-family: 'SF Regular';
+    src: url(Fonts/SF-Pro-Display-Regular.otf);
+}
+
+@font-face {
+    font-family: 'SF Thin';
+    src: url(Fonts/SF-Pro-Display-Thin.otf);
+}
+
+body {
+    background: linear-gradient(90deg, rgba(170,170,170,1) 0%, rgba(181,181,181,1) 100%); 
+}
+
+.header {
+    margin: auto;
+    background-color: white;
+    width: 1000px;
+    height: 100px;
+    border-radius: 25px;
+    opacity: .45;
+}
+
+.main {
+    margin: auto;
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+    margin-top: 100px;
+    border-radius: 25px;
+    opacity: .45;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding-right: 30px;
+    font-family: 'SF Bold';
+    font-size: 24px;
+}
+
+.header-list {
+    margin-left: auto;
+    padding-top: 35px;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:link {
+    color: gray;
+    transition: ease-in-out 0.3s;
+}
+
+a:hover {
+    color: gray;
+    transition: ease-in-out 0.3s;
+}
+
+.main-greeting {
+    color: black;
+    text-align: center;
+    font-family: 'SF Bold';
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+.main-text {
+    color: black;
+    text-align: center;
+    font-family: 'SF Bold';
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-user {
+    color: green;
+}
