@@ -56,10 +56,6 @@ li {
 a {
     color: black;
     text-decoration: none;
-}
-
-a:link {
-    color: gray;
     transition: ease-in-out 0.3s;
 }
 
@@ -86,5 +82,13 @@ a:hover {
 }
 
 .main-user {
-    color: green;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.creator-span {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
 }
